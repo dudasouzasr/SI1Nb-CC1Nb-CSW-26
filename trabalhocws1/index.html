@@ -4,30 +4,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title> My's Landing Page</title>
 
 </head>
 
-<head>
-    <br>
-    <br>
+<head class="topo">
 
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <p style="font-family: 'Dancing Script', cursive; font-size: 32px;"> Maria Eduarda Suellen de Souza Ramos</p>
+    <div class="container-indice">
+
+        <img src="imagens/Apresentação.png" alt="Foto de perfil" class="foto-perfil" width="100%" height="auto">
+        <div class="info">
+            <h1 class="centro" id="introducao"> Maria Eduarda Suellen de Souza Ramos</h1>
+            <p class="centro"> Estudante / Portifólio Pessoal</p>
+        </div>
+    </div>
+
+
+    <table class="tabela-indice" border="1">
+        <tr>
+            <th colspan="15"><b>Índice</b></th>
+        </tr>
+
+        <tr>
+            <th>Seção</th>
+            <th>Ir para</th>
+        </tr>
+
+        <tr>
+            <td>01. Introdução</td>
+            <td><a href="#introducao" class="btn">Acessar</a></td>
+        </tr>
+
+        <tr>
+            <td>02. Vida Acadêmica</td>
+            <td><a href="#academica" class="btn">Acessar</a></td>
+        </tr>
+
+        <tr>
+            <td>03. Vida Profissional</td>
+            <td><a href="#profissional" class="btn">Acessar</a></td>
+        </tr>
+
+        <tr>
+            <td>04. Vida Pessoal</td>
+            <td><a href="#pessoal" class="btn">Acessar</a></td>
+        </tr>
+
+        <tr>
+            <td>05. Produtos</td>
+            <td><a href="../produtos/produtos.html" class="btn">Acessar</a></td>
+        </tr>
+
+        <tr>
+            <td>6. Curriculo</td>
+            <td><a href="../curriculo/curriculo.html" class="btn">Acessar</a></td>
+        </tr>
+
+        <tr>
+            <td>07. Contato</td>
+            <td><a href="../formulario/formulario.html" class="btn">Acessar</a></td>
+        </tr>
+
+        <tr>
+            <td>08. GitHub</td>
+            <td><a href="https://github.com/dudasouzasr?tab=overview&from=2026-03-01&to=2026-03-31" class="btn">Acessar</a></td>
+        </tr>
+
+    </table>
+
+    </div>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            color: #989b46;
+        }
+
+        p {
+            color: #554c0e;
+            font-size: 18px;
+        }
+
+        a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .topo {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            /*tudo começa da esquerda */
+            gap: 60px;
+        }
+
+        /*empurra a foto mais pro centro*/
+        .topo img {
+            width: 100%;
+            /* aumenta aqui */
+            height: auto;
+            /* mantém proporção */
+            border-radius: 50%;
+        }
+
+        .secao {
+            width: 100%;
+            max-width: 800px;
+        }
+
+
+        image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
+
 
 <body>
-    <hr>
+
+    <style>
+        .centro {
+            text-align: center;
+        }
+    </style>
+
     <br>
-    <p>Me chamo Maria Eduarda e tenho 20 anos. Sou natural de Governador Valadares, Minas Gerais, onde residi até,
-        aproximadamente, os 4 anos de idade. Me mudei para o Espírito Santo com minha avó, mãe e irmã. </p>
-    <p> Durante o ensino médio, estudei na escola <a
-            href="https://www.google.com/search?q=escola+maura+abaurre&sca_esv=954a16bda8dfd6ee&rlz=1C1GCLX_enBR1198BR1198&sxsrf=ANbL-n7En7LVIBDAs6Vp9I_vot7MGBm3KA%3A1775845653723&ei=FUHZaZvuK_TC5OUP44GTqA8&biw=1920&bih=945&ved=0ahUKEwjbzPbK9OOTAxV0IbkGHePABPUQ4dUDCBE&uact=5&oq=escola+maura+abaurre&gs_lp=Egxnd3Mtd2l6LXNlcnAiFGVzY29sYSBtYXVyYSBhYmF1cnJlMgQQIxgnMgoQIxiABBgnGIoFMgoQABiABBhDGIoFMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIFEAAY7wVI2wVQfVieBHABeAGQAQCYAXqgAfABqgEDMC4yuAEDyAEA-AEBmAIDoAL8AcICChAAGLADGNYEGEfCAgUQABiABMICCBAAGIAEGKIEmAMAiAYBkAYIkgcDMS4yoAeoD7IHAzAuMrgH9wHCBwUwLjEuMsgHCYAIAA&sclient=gws-wiz-serp">Maura
-            Abaurre, </a>localizada em Vila Nova. Nesse período, partipei de diversos atividades complementares, me
-        tornei líder de sala no segundo ano e, continuei sendo até a minha formação. Akém disso, também participei do
-        programa Jovem Acolhedor, contribuindo com ações escolares e, a formação de jovens.</p>
     <br>
 
+
+    <hr>
+
+
+<h3 class="centro" style="color: #989b46;">Introdução</h3>
+
+    <p class="centro"> Meu nome é Maria Eduarda Suellen de Souza Ramos, tenho 20 anos e sou natural de Governador
+        Valadares, Minas
+        Gerais. Eu e minha família nos mudados quando eu ainda era bem nova, fazendo com que eu me adaptasse muito bem
+        ao estado (o fato de que aqui possuem praias foi de grande ajuda, sem dúvidas!). Quando pequena, sempre fui
+        muito
+        introvertida, tímida e tinha dificuldade em fazer amigos. Porém, ao ingressar no Ensino Médio, me
+        desenvolvi bastante com o auxílio de pessoas maravilhosas que conheci. Atualmente, curso Ciencia da
+        Computação na <a href="https://uvv.br/">Universidade Vila Velha</a>, ao mesmo tempo em que trabalho na empresa
+        <a href="https://institucional.autoglass.com.br/"> Autoglass.
+        </a>
+
+
+
+
+
+
+    <p class="centro"> Sou uma pessoa apaixonada por tecnologia e inovação. Gosto de aprender coisas novas e
+        estou
+        sempre em busca de desafios que me permitam crescer profissionalmente. Portanto, irei me apresentar um pouco
+        sobre minha vida acadêmica e profissional, para que vocês possam me conhecer melhor!
+    </p>
+    <hr>
+
+    <h2 style="color: #989b46;" id="vidaacademica">Vida Acadêmica</h2>
+    <p> Me formei no ensino médio em 2023, pela escola Maura Abaurre, uma instituição da rede pública de
+        Vila Velha. Durante meu período no ensino médio, fui líder de sala por 2 anos consecutivos! (sim, eu
+        particularmente era uma ótima líder, hshs).</p>
+
+    <p>Paralelamente a isso, também participei do programa <i>Jovem Acolhedor</i>, o qual participação ativa em
+        ações
+        escolares. Um fato bem legal sobre isso é que, por participar do programa jovem acolhedor, fui uma das
+        selecionadas a participar de um comercial. Na época, gravei entevistas, participei de gravações e outras
+        atividades muito legais.</p>
+    <p> Ao me formar no ensino médio, não sabia exatamente o que queria fazer, mas com o tempo descobri minha paixão
+        por
+        tecnologia. Com isso, ingressei na UFES no ano de 2025! Porém, não me adaptei e, optei por seguir meus
+        estudos
+        na Universidade Vila Velha.</p>
+    <p>Atualmente, estou cursando Ciência da Computação na UVV e, sem dúvidas, tem sido uma experiência incrível.
+    </p>
+
+
+
+<hr>
+
+    <h2 style="color: #989b46;" id="vidaprofissional">Vida Profissional</h2>
+
+    <p> Saindo do ensino médio, como muitos jovens, eu estava meio perdido sobre qual caminho seguir. Então decidi
+        buscar
+        uma oportunidade de trabalho para ganhar experiência — e claro, juntar uma graninha.
+
+        Minha primeira experiência profissional foi em um consultório odontológico, onde trabalhei como
+        recepcionista. Foi um período muito enriquecedor: aprendi a me comunicar melhor, a ser mais organizada e,
+        principalmente, a lidar com diferentes pessoas no dia a dia. Essa vivência me ajudou a crescer não só
+        profissionalmente, mas também pessoalmente.</p>
+    <p>Depois dessa primeira experiência, continuei em busca de novas oportunidades e fui desenvolvendo minhas
+        competências profissionais. Com dedicação e aprendizado constante, conquistei a vaga onde atuo atualmente,
+        na em
+        presa
+        Autoglass.</p>
+    <p> De fato não foi uma mudança fácil, pois tive que aprender totalmente do zero.</p>
+    <ul type="" style="color: #554c0e;">
+        <b>
+            <li> Desde então, trabalho como Agente de Atendimento BPO, atendendo a área de seguros!</li>
+        </b>
+    </ul>
+<hr>
+
+    <h2 style="color: #989b46;"">Vida Pessoal</h2>
+        <p> Costumo dizer que sou uma pessoa " topa tudo", pois ao mesmo tempo em que adoro ficar em casa curtinho
+        minha família, também gosto de sair e aproveitar com meus amigos.</p>
+
+        <p> Gosto muito de ler (muitos dizem que é um vício, mas eu prefiro chamar de <i>hobby</i>), e meu gênero
+            favorito é fantasia. Além disso, sou apaixonada por
+            filmes e séries, principalmente os de comédia romântica. E claro, não poderia deixar de mencionar minha
+            paixão por música! Gosto de ouvir um pouco de tudo e seria muito difícil escolher um único estilo.</p>
+        <p> Dito isso, deixo com vocês minha música mais escutada do mes de Março, para que possam apreciar:</p>
+        <audio preload="none" controls>
+            <source class="centro" src="audios/charlestaylor-the-house-of-rising-sun.mp3" type="audio/mpeg">
+        </audio>
 
 </body>
 

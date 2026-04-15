@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
             <form action="mailto:dudasouzasr@gmail.coom" method="post">
                 <tr>
                     <td><label for="Nome"> Nome </label></td>
-                    <td> <input type="text" name="nome-usuario" size="50" maxlength=30" value=""
+                    <td> <input type="text" name="nome-usuario" size="50" maxlength="30" value=""
                             placeholder="Digite o Nome do usuário"></td>
                 </tr>
 
@@ -33,7 +33,71 @@
                     <td><label for="Senha">Senha:</label></td>
                     <td><input type="password" id="senha" name="senha" size="50" maxlength="30"
                             placeholder="Digite sua Senha">
-                        </td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="idade">Idade:</label></td>
+                    <td><input type="number" id="idade" name="idade" size="50" maxlength="30" value=""
+                            placeholder="Digite sua Idade"></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Deixe um comentário</p><textarea name="comentario" cols="50" rows="10"
+                            placeholder="Deixe um comentário"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="checkbox"> Matéria de Interesse:</label>
+                        <br>
+                        <input type="checkbox" name="auto" value=""> Backend
+                        <br>
+                        <input type="checkbox" name="auto" value=""> FrontEnd
+                        <br>
+                        <input type="checkbox" name="auto" value=""> FullStack
+                    </td>
+
+                    <td>
+                        <label for="select">Tipo de Viagem</label>
+                        <br>
+                        <input type="radio">Negócios
+                        <br>
+                        <input type="radio">Lazer
+                        <br>
+                        <input type="radio">Turismo
+                        <br>
+                        <input type="radio">Acadêmico
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="selecionar"> Esporte Favorito:</label>
+                        <select value="Locais" size="4">
+                            <option value="Futebol">Futebol</option>
+                            <option value="Basquete">Basquete</option>
+                            <option value="Vôlei">Futebol</option>
+                            <option value="Tênis">Tênis</option>
+                        </select>
+                    </td>
+
+                    <td><label for="selecionar"> Investimentos</label>
+                        <select value="Tiposdeinvestimentos" size="1">
+                            <option value="poupança">Poupança</option>
+                            <option value="cdb">CDB</option>
+                            <option value="tesourodireto">Tesouro direto</option>
+                            <option value="fundosimobiliarios">Fundos Imobiliários</option>
+                            <option value="cdi">CDi</option>
+                            <option value="debentures">Debêntures</option>
+                            <option value="criptomoedas">Cripto Moedas</option>
+                            <option value="acoes">Ações</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="escolhercor">Selecione a cor</label>
+                    <select value="tipodecor" size="1">
+                        <option value="cor" style="color: black;"></option>
+                    </select></td>
                 </tr>
             </form>
 
